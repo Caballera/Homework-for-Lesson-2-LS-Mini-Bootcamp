@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    color: #333;
+}
+
+body {
+    font-family: 'Lora', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
+.navbar, h1, h2 {
+    font-weight: 800;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+
+
+/**********************************************
+
+NAVBAR
+
+**********************************************/
+
+.navbar-header {
+    color: #777;
+    padding-left: 20px;
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        background: transparent;
+        border: none;
+}
+    .navbar-header .navbar-brand {
+        color: #FFF;
+        font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        padding-left: 1em;
+    }
+    
+    .navbar-right {
+        font-weight: 800;
+        font-size: 0.8em;
+        text-transform: uppercase;
+    }
+    
+    .navbar-default .navbar-nav > li > a {
+        font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+        color: #FFF;
+        padding-right: 1em;
+    }
+}
+
+
+
+/**********************************************
+
+HEADER
+
+**********************************************/
+
+header-hero {
+    display: block;
+    background: center center no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 1.750em;
+}
+
+.header-text {
+    display: block;
+    line-height: 1.2;
+    color: #FFF;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    padding: 150px 0 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.header-subheader {
+    font-weight: 600;
+    font-size: 1.2em;
+    margin: 10px 0 30px;
+}
+
+.header-text-para {
+    margin-top: 20px;
+    font-size: 0.9em;
+    font-weight: 400;
+    font-family: 'Lora', Helvetica, Arial, sans-serif;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 2.7em;
+    }
+}
+}
+
+
+
+/**********************************************
+
+Section
+
+**********************************************/
+
+section {
+    font-family: 'Lora', Helvetica, Arial, sans-serif;
+    font-size: 1.4em;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+section p {
+    line-height: 1.5;
+    margin: 30px 0;
+}
+
+section p {
+    font-size: 1em;
+}
+
+section h2 {
+    font-size: 34px
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 1px;
+    line-height: ;
+    color: #777;
+}
+
+section img {
+    width: 100%;
+    margin-top: 9%;
+}
+
+section figcaption {
+    font-size: 0.7em;
+    padding-top: 8px;
+    margin-bottom: 5%;
+    color: #777;
+}
+
+.placeholder-text a {
+    color: #000;
+    text-decoration: underline;
+}
+
+
+
+/**********************************************
+
+Footer
+
+**********************************************/
+
+footer li { 
+    color: #FFF;
+    background-color: #000;
+    list-style-type: none;
+    display: inline-block;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    line-height: 65px;
+    margin-bottom: 2%;
+    margin-top: 10%;
+}
+
+.footer-copyright {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10%;
+}
+
